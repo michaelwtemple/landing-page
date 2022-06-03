@@ -37,6 +37,26 @@ body {
     align-items: center;
 }
 
+.hero-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-text, .links li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 12px 32px;
+    border: 0px;
+}
+
 .logo {
     display: flex;
     align-items: center;
