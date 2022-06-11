@@ -129,3 +129,13 @@ body {
 .signature {
     align-self: flex-end;
 }
+
+.call-to-action {
+    margin: 5vh 15vw;
+    padding: 1vh 8vw;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
