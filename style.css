@@ -48,18 +48,22 @@ body {
     color: #E5E7EB;
 }
 
-.hero-button, .call-to-action-button {
+button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 24px;
     border-radius: 8px;
     padding: 12px 32px;
+}
+
+.hero-button {
+    font-size: 24px;
     border: 0px;
 }
 
 .call-to-action-button {
     border-color: white;
     border: 2px solid;
+    font-weight: bold;
 }
 
 .logo {
@@ -143,4 +147,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.call h3 {
+    font-size: 24px;
+}
+
+.call h3, .call p {
+    color: white;
+    margin: 0 0;
 }
