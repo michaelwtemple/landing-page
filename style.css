@@ -48,13 +48,18 @@ body {
     color: #E5E7EB;
 }
 
-.hero-button {
+.hero-button, .call-to-action-button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 24px;
     border-radius: 8px;
     padding: 12px 32px;
     border: 0px;
+}
+
+.call-to-action-button {
+    border-color: white;
+    border: 2px solid;
 }
 
 .logo {
